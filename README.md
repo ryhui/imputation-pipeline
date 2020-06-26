@@ -6,6 +6,8 @@ This repository contains scripts used in an imputation pipeline for low-coverage
 Default pipeline, including down-sampling, genotype likelihood calling in [ATLAS](https://bitbucket.org/wegmannlab/atlas/wiki/Home), and imputation in [Beagle](http://faculty.washington.edu/browning/beagle/beagle.html). It is written as a [snakemake](https://snakemake.readthedocs.io) workflow, but bash commands can be easily extracted from the "shell" sections.   
 
 ### local_imputation_pipeline.sh
+(Author: [Eugenia D'Atanasio](https://www.ibpm.cnr.it/index.php?option=com_cnr&view=profile&id=613&lang=en#))
+
 Pipeline used for local imputation when only genotypes at certain positions are of interest. 
 
 ### pmd_filter.py
